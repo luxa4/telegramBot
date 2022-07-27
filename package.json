@@ -1,0 +1,31 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-json-modules index.js",
+    "start": "node --experimental-json-modules index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxa4/telegramBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxa4/telegramBot/issues"
+  },
+  "homepage": "https://github.com/luxa4/telegramBot#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.58.0",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  }
+}

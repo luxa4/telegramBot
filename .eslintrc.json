@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["error", 2, { "SwitchCase": 1 }], // отступы от края
+        "no-var": ["error"], // заменяет var на let, const
+        "object-curly-spacing": ["error", "always"], // отступы от curly
+        "comma-dangle": ["error", "never"], // запрет запятых у после пустых элементов
+        "quotes": ["error", "single"], // замена двойных кавычек на одинарные
+        "semi": ["error", "always"], // ставит ; в конце строки
+        "max-len": ["error", { "code": 120 }] // максимальное количество кода в строке
+    }
+}
